@@ -1,0 +1,24 @@
+{
+  "name": "project-practice",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Project-workshop-sec-semestr/Project-practice.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "stylelint": "npx stylelint **/*.css",
+    "stylelint:fix": "npx stylelint **/*.css --fix"
+  ,
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "stylelint": "^16.17.0",
+    "stylelint-config-standard": "^37.0.0"
+  },
+  "hooks": {
+    "pre-commit": "stylelint \"**/*.css\""
+  }
+}
