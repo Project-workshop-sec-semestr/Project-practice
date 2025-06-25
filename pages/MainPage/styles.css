@@ -7,7 +7,7 @@
 	height: 100vh;
 	width: 100%;
 	padding: 50px;
-
+	justify-content: space-between;
 }
 
 .column{
@@ -19,6 +19,7 @@
 
 .column-1, .column-2{
 	margin-right: 25px;
+	
 }
 
 .container-1 {
@@ -32,7 +33,7 @@
 }
 
 .container-3 {
-	height: calc((210 / 980) * 100% );
+	height: calc((200 / 980) * 100% );
 	background-color: #4F4949;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .container-6 {
-	height: calc((360 / 980) * 100% );
+	height: calc((340 / 980) * 100% );
 	background-color: #4F4949;
 }
 
@@ -62,7 +63,18 @@
 }
 
 .container-9 {
-	height: calc((490 / 980) * 100% );
+	height: calc((470 / 980) * 100% );
 	background-color: #4F4949;
+}
+
+.redirection-link {
+	display: flex;
+	width: 100%;
+	height: 30px;
+	background-color: #deb2b2;
+	font-weight: bold;
+	color: black;
+	justify-content: center;
+	align-items: center;
 }
 
