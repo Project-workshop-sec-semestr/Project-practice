@@ -1,5 +1,6 @@
 { "extends": ["stylelint-config-standard"],
 	"rules": {
-		"number-max-precision": null
+		"number-max-precision": null,
+		"declaration-property-value-keyword-no-deprecated": null
 	}
 }
