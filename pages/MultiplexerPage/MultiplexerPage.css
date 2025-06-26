@@ -7,6 +7,7 @@
 body{
 	font-family: Tektur, sans-serif;
 	background-image: radial-gradient(at 45.3739936236834% 35.6080245845336%, hsl(255deg 30.76923076923077% 15.294117647058824% / 100%) 0%, hsl(255deg 30.76923076923077% 15.294117647058824% / 0%) 100%), radial-gradient(at 80.32018406652371% 54.784854115137406%, hsl(171.8181818181818deg 10.280373831775703% 41.96078431372549% / 100%) 0%, hsl(171.8181818181818deg 10.280373831775703% 41.96078431372549% / 0%) 100%), radial-gradient(at 39.076385796827815% 31.934564981189205%, hsl(0deg 0% 100% / 100%) 0%, hsl(0deg 0% 100% / 0%) 100%), radial-gradient(at 59.05820291895185% 54.41010154519616%, hsl(255deg 30.76923076923077% 15.294117647058824% / 100%) 0%, hsl(255deg 30.76923076923077% 15.294117647058824% / 0%) 100%), radial-gradient(at 68.45349814660413% 23.43972022935987%, hsl(171.8181818181818deg 10.280373831775703% 41.96078431372549% / 100%) 0%, hsl(171.8181818181818deg 10.280373831775703% 41.96078431372549% / 0%) 100%), radial-gradient(at 68.92255666526724% 16.626349344935765%, hsl(0deg 0% 100% / 100%) 0%, hsl(0deg 0% 100% / 0%) 100%), radial-gradient(at 99.39171327489152% 28.882179716594326%, hsl(255deg 30.76923076923077% 15.294117647058824% / 100%) 0%, hsl(255deg 30.76923076923077% 15.294117647058824% / 0%) 100%), radial-gradient(at 78.9783659546194% 24.21292669822297%, hsl(171.8181818181818deg 10.280373831775703% 41.96078431372549% / 100%) 0%, hsl(171.8181818181818deg 10.280373831775703% 41.96078431372549% / 0%) 100%), radial-gradient(at 72.78209315277171% 39.085376740428934%, hsl(0deg 0% 100% / 100%) 0%, hsl(0deg 0% 100% / 0%) 100%), radial-gradient(at 27.26711393216914% 53.01973547057961%, hsl(255deg 30.76923076923077% 15.294117647058824% / 100%) 0%, hsl(255deg 30.76923076923077% 15.294117647058824% / 0%) 100%);
+	height: 100%;
 }
 
 a:visited {
@@ -16,6 +17,9 @@ a:visited {
 .parent {
 	display: flex;
 	flex-direction: row;
+	background-repeat: no-repeat;
+	height: 100%;
+	
 }
 
 .link-to-main {
@@ -32,11 +36,11 @@ a:visited {
 	font-size: large;
 }
 
-.operations-of-descryptor {
+.operations-of-multiplexer {
 	display: flex;
 	box-sizing: border-box;
 	align-items: center;
-	width: 50%;
+	width: 70%;
 	height: 330px;
 	background-color: #a9a9a9;
 	font-size: x-large;
@@ -45,35 +49,24 @@ a:visited {
 	margin-bottom: 1%;
 }
 
-.types-of-descryptor {
-	display: flex;
-	box-sizing: border-box;
-	align-items: center;
-	width: 60%;
-	height: 335px;
-	background-color: #a9a9a9;
-	font-size: x-large;
-	padding: 10px;
-	border-radius: 10px;
-}
 
 .application {
 	display: flex;
 	box-sizing: border-box;
 	align-items: center;
-	width: 30%;
+	width: 50%;
 	height: 180px;
 	background-color: #a9a9a9;
-	margin-top: 1%;
+	margin-top: 5%;
 	font-size: x-large;
 	border-radius: 10px;
-	padding: 1%;
+	padding: 2%;
 }
 
 .scheme {
 	display: flex;
 	box-sizing: border-box;
-	margin-right: 10%;
+	margin-right: 20%;
 	margin-top: 5%;
 	width: 600px;
 	height: 600px;
